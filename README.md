@@ -74,14 +74,16 @@ Used to generate:
 
 ---
 
-## ⚡ Performance Improvement
+## ⚡ Performance Gains
+
+The migration not only reduced execution time but also stabilized pipeline performance.
 
 | Scenario | Processing Time |
 |--------|----------------|
 | Legacy (SQL Server) | ~1h30 – 4h |
 | Lakehouse | 28 min |
 
-🚀 **Up to 5x faster in peak scenarios**
+🚀 **Up to 5x faster in peak scenarios, with significantly reduced variability**
 
 ## 📊 Legacy Pipeline Runtime (SQL Server)
 
