@@ -76,14 +76,18 @@ Used to generate:
 
 ## ⚡ Performance Improvement
 
-| Scenario            | Processing Time |
-| ------------------- | --------------- |
-| Legacy (SQL Server) | 1h43            |
-| Lakehouse           | 28 min          |
+| Scenario | Processing Time |
+|--------|----------------|
+| Legacy (SQL Server) | ~1h30 – 4h |
+| Lakehouse | 28 min |
 
-🚀 **2.6x faster processing**
+🚀 **Up to 5x faster in peak scenarios**
 
----
+## 📊 Legacy Pipeline Runtime (SQL Server)
+
+The legacy pipeline execution time varied significantly depending on workload, often exceeding **2 hours** and reaching peaks above **4 hours**.
+
+![sql](images/sql-server-runtime.png)
 
 ## 🧠 Technical Decisions
 
