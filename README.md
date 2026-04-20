@@ -49,7 +49,15 @@ Sources → Trino → Bronze → Silver → Gold → Analytics
 ↑
 Airflow
 
----
+## 📈 Pipeline Visualization
+
+This section illustrates the orchestration and transformation layers of the pipeline.
+
+### Airflow DAG Execution (Gantt View)
+![airflow](images/airflow.png)
+
+### dbt Lineage
+![dbt](images/dbt.png)
 
 ## 📊 Key Use Case
 
